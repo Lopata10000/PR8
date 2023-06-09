@@ -1,9 +1,7 @@
 package com.fanta.services;
 
-import com.fanta.dao.PerformanceDao;
 import com.fanta.dao.PlayDao;
 import com.fanta.entity.PlayEntity;
-import com.fanta.factory.PerformanceDaoFactory;
 import com.fanta.factory.PlayDaoFactory;
 
 import java.util.List;

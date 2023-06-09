@@ -4,7 +4,6 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public final class DbUtil {
@@ -16,7 +15,6 @@ public final class DbUtil {
     private static final HikariConfig pullConfiguration = new HikariConfig();
 
     static {
-        HikariConfig pullConfiguration = new HikariConfig();
         pullConfiguration.setJdbcUrl(URL);
         pullConfiguration.setUsername(USER_NAME);
         pullConfiguration.setPassword(PASSWORD);
